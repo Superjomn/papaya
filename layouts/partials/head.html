@@ -21,6 +21,7 @@
     {{ end }}
 
     <meta name="google-site-verification" content="kO2XszgjIr1OyaOubGpeb0M34ADBz27vyI1dLETarCM" />
+
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z60BDN3JGH"></script>
@@ -32,3 +33,10 @@
   gtag('config', 'G-Z60BDN3JGH');
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/cash-dom/dist/cash.min.js"></script>
+<script>
+  $(function () {
+    $('article table').addClass ('table');
+    //$('<footer>Appended with Cash</footer>').appendTo ( document.body );
+  });
+</script>
