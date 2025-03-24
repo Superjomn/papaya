@@ -1,0 +1,5 @@
+<span class="sidenote-wrapper">
+  <label for="{{ .Get "id" }}" class="sidenote-label">⊕</label>
+  <input type="checkbox" id="{{ .Get "id" }}" class="sidenote-checkbox">
+  <span class="sidenote">{{ .Get "content" | markdownify }}</span>
+</span>
